@@ -1,0 +1,8 @@
+
+I would use:
+
+GIF file format to show the animation on the web page.
+
+SVG file format to be able to scale an SVG image up and down without losing any quality.
+
+A favicon to be able to locate the page easier when I have multiple tabs open.

@@ -1,0 +1,8 @@
+
+1. The page is written in HTML.
+
+The doctype is <!DOCTYPE html> which is the HTML doctype.
+
+2. Yes because lang="ln".
+
+3. Wij helpen KMO's en ondernemers met hun website en online marketing op maandelijkse basis. Zo hebben onze klanten meer tijd voor hun bedrijf en zijn ze zeker van marketingacties, elke maand opnieuw.
