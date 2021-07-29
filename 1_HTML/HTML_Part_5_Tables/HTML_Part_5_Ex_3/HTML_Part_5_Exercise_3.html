@@ -3,12 +3,63 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Employees</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employees Cat&Co</title>
+    <link rel="stylesheet" href="HTML_Part_5_Exercise_3.css">
 </head>
 
 <body>
-    <h1>Employees</h1>
-
+    <h1>Employees Cat&Co</h1>
+    <table>
+        <caption>Name List</caption>
+        <colgroup>
+            <col>
+            <col>
+            <col>
+        </colgroup>
+        <colgroup>
+            <col>
+            <col>
+        </colgroup>
+        <tr>
+            <th rowspan="2">Name</th>
+            <th colspan="2">Domicile</th>
+            <th rowspan="2">Languages</th>
+            <th rowspan="2">Photo</th>
+        </tr>
+        <tr>
+            <th>Postal Code</th>
+            <th>Place</th>
+        </tr>
+        <tr>
+            <td>Jane</td>
+            <td>2440</td>
+            <td>Geel</td>
+            <td>
+                <ol>
+                    <li>French</li>
+                    <li>Dutch</li>
+                    <li>English</li>
+                </ol>
+            </td>
+            <td><img src="images/jeanne.jpg" alt="Jeanne" width="150" height="150"></td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>1000</td>
+            <td>Brussel</td>
+            <td>
+                <ol>
+                    <li>English</li>
+                    <li>Spanish</li>
+                    <li>French</li>
+                    <li>Dutch</li>
+                    <li>Portuguese</li>
+                </ol>
+            </td>
+            <td><img src="images/john.jpg" alt="John" width="150" height="150"></td>
+        </tr>
+    </table>
 </body>
 
 </html>
