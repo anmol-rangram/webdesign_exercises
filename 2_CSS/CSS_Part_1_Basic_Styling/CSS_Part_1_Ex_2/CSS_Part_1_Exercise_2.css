@@ -1,1 +1,18 @@
 /* all devices */
+*{
+    font-family: Arial, 'Helvetica Neue', sans-serif;
+}
+
+h1,h2,h3,h4{
+    text-transform: uppercase;
+}
+
+.line{
+    text-decoration: underline;
+}
+
+.accent{
+    font-weight: bold;
+    color: green;
+    background: #fff;
+}

@@ -2,8 +2,14 @@ body {
     font-family: sans-serif;
 }
 
-svg {
-    background-color: #ccc;
+.black-svg {
+    background-color: black;
+    border: 10px solid #ccc;
+}
+
+.white-svg {
+    background-color: white;
+    border: 10px solid #ccc;
 }
 
 table,
@@ -12,4 +18,41 @@ td {
     border: 1px solid #000;
     border-collapse: collapse;
     padding: 20px;
+}
+
+tbody > tr:nth-child(2) > td:nth-child(1) {
+    font-family: Verdana, sans-serif;
+    font-variant: small-caps;
+    font-size: 18px;
+}
+
+tbody > tr:nth-child(3) > td:nth-child(1) {
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+}
+
+tbody > tr:nth-child(4) > td:nth-child(1) {
+    font-family: 'Times New Roman', serif;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+tbody > tr:nth-child(5) > td:nth-child(1) {
+    font-family: "Comic Sans MS", cursive;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+tbody > tr:nth-child(6) > td:nth-child(1) {
+    font-family: monospace;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+tbody > tr:nth-child(7) > td:nth-child(1) {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: right;
 }

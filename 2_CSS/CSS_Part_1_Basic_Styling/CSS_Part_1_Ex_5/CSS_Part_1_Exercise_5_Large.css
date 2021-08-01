@@ -1,1 +1,38 @@
 /* large screens */
+
+body{
+    font-size: 1.5rem;
+    background-image: url(./home.png);
+    background-position: bottom ;
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+}
+
+
+.home-img{
+    position: fixed;
+    bottom: 10px;
+}
+
+.f-li::before{
+    content: url(./plus.png) !important;
+}
+
+.s-li::before{
+    content: url(./min.png) !important;
+}
+
+table{
+    border-width: 5px;
+    caption-side: bottom;
+}
+
+table >td{
+    width: 400px;
+}
+
+caption{
+    background: #000;
+    color: #79a51b;
+    font-size: 1.2rem;
+}
