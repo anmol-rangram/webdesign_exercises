@@ -1,1 +1,80 @@
 /*screen*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 18px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background: #666;
+}
+
+div{
+    width: 600px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgba(5,5,5,0.5);
+    background-image: url(../images/key.png);
+    background-repeat: no-repeat;
+    background-position: right 20px top 40px;
+}
+
+h1,h2,h3,h4.h5,h6{
+    color: #009cab;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer{
+    text-align: right;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+p{
+    text-align: justify;
+}
+
+nav{
+    margin: 4px;
+    padding: 20px 20px 20px 25px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    width: 90px;
+    padding: 20px;
+    background: #666;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+nav ul li a:hover{
+    background: #009cab !important;
+    background-image: url(../images/arrow.png) !important;
+    background-position: left !important;
+    background-repeat: no-repeat !important;
+}
+
+span{
+    color: #009cab;
+}

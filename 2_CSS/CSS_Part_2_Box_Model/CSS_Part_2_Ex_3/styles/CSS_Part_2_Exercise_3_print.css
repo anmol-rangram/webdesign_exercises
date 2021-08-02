@@ -1,1 +1,18 @@
 /*print*/
+
+*{
+    font-size: 12px !important;
+}
+
+nav{
+    display: none;
+}
+
+div{
+    box-shadow: none !important;
+    background: #fff !important;
+}
+
+img{
+    display: none;
+}

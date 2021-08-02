@@ -1,1 +1,124 @@
 /*flags*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 1.5;
+    background: radial-gradient(black 15%, transparent 16%) 0 0, radial-gradient(black 15%, transparent 16%) 8px 8px,
+        radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 0 1px,
+        radial-gradient(rgba(255, 255, 255, 0.1) 15%, transparent 20%) 8px 9px;
+    background-color: #282828;
+    background-size: 16px 16px;
+}
+
+#container{
+    max-width: 800px;
+    padding: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #000;
+    background: #fff;
+}
+
+h1 ,p{
+    margin-bottom: 20px;
+}
+
+table{
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+tr ,td{
+    border: 1px dotted #999;
+}
+
+td{
+    width: 290px;
+}
+
+h1 a{
+    color: #000;
+    border-bottom: 3px solid red;
+    text-decoration: none;
+}
+
+table a{
+    color: #000;
+}
+
+table a:hover{
+    background: #000;
+    color: #fff !important;
+}
+
+tr >td{
+    background: #eee;
+}
+
+
+.flag{
+    width: 210px;
+    height: 150px;
+    margin: 10px auto;
+}
+
+.vertical{
+    border-left: 70px;
+    border-right: 70px;
+    border-style: solid;
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+}
+
+.horizontal{
+    border-top: 50px;
+    border-bottom: 50px;
+    border-style: solid;
+    border-left: 0 !important;
+    border-right: 0 !important;
+}
+
+#belgium{
+    border-left-color: black;
+    border-right-color:red ;
+    background: yellow;
+}
+
+#france{
+    border-left-color: blue;
+    border-right-color:red ;
+    background: white;
+}
+
+#germany{
+    border-top-color: black;
+    border-bottom-color: yellow;
+    background: red;
+}
+
+#italy{
+    border-left-color: green;
+    border-right-color:red ;
+    background: white;
+}
+
+#netherlands{
+    border-top-color: red;
+    border-bottom-color: blue;
+    background: white;
+}
