@@ -1,1 +1,120 @@
 /* Part 3 Ex 1 */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    padding: 15px;
+}
+
+
+span ,a{
+    text-transform: uppercase;
+    color: #009cab;
+    font-weight: bold;
+}
+
+@media screen and (max-width:768px) {
+    .hideonsmall{
+        display: none;
+    }   
+}
+
+@media screen and (min-width:768px)  and (max-width:992px){
+    body{
+        background: #ccc;
+        color: #000;
+        font-size: 1.2rem;
+    }
+
+    #container{
+        width: 700px;
+        background: #fff;
+        margin: 20px auto;
+        border: 2px solid #000;
+        border-radius: 20px;
+    }
+    .showonmedium{
+        display: block !important;
+        background: #eee;
+        border-left: 2px solid #000;
+    }
+    h1,h2,h3,h4,h5,p{
+        margin: 0 15px;
+    }
+    span{
+        border: none !important;
+        text-align: right;
+        background: #fff !important;
+    }
+    .hideonmedium{
+        display: none;
+    } 
+
+}
+
+
+@media screen and (min-width:992px) {
+    body{
+        background: #009cab;
+        color: #000;
+        font-size: 1.4rem;
+    }
+    #container{
+        max-width: 900px;
+        margin: 30px auto;
+        box-shadow: 2px 2px 2px rgba(25,25,25,0.8);
+        background: #fff !important;
+    }
+    .showonlarge{
+        display: block !important;
+        background: #ecfafb;
+        border-left: 2px solid #009cab;
+    }
+    .hideonlarge , .hideonmedium{
+        display: none !important;
+    }
+    h1,h2,h3,h4,h5,p{
+        margin: 0 15px;
+    }
+    span{
+        background: #fff !important;
+        border: none !important;
+        text-align: right;
+    }
+    .showonmedium{
+        background: #eee;
+        border-left: 2px solid #000;
+    }
+}
+
+@media print {
+    .showonprint{
+        display: block !important;
+    }
+    .hideonprint{
+        display: none;
+    }
+}
+

@@ -27,3 +27,61 @@ figure {
 li {
     margin-left: 15px;
 }
+
+div,
+header {
+    max-width: 1000px;
+    margin: 10px auto;
+    background: #fff;
+    border-top: 10px solid #009cab;
+    border-bottom: 10px solid #009cab;
+}
+
+header {
+    background: #faead5;
+}
+
+.center {
+    text-align: center;
+}
+
+p img {
+    width: 160px;
+    height: 180px;
+}
+
+figure {
+    background: #eee;
+}
+
+figure img {
+    width: 100%;
+}
+
+figcaption {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #666;
+    text-align: right;
+}
+
+@media screen and (min-width: 700px) {
+    p img {
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    header {
+        background: url(images/intro.jpg);
+        background-size: cover;
+        background-position: bottom;
+        height: 300px;
+    }
+    li {
+        margin-left: 50px;
+    }
+    li::before {
+        content: url(images/pencil.png);
+    }
+}
