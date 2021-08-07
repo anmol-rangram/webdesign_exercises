@@ -28,3 +28,51 @@ h2 {
     border: 1px solid #000;
     text-align: center;
 }
+
+footer{
+    background: #000;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.fl-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+p{
+    width: 130px;
+    height: 130px;
+    border: 5px solid #000;
+    background: #f04c25;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+
+p:nth-child(1):hover{
+    border-radius: 0;
+    background: #009cab;
+}
+
+p:nth-child(2):hover{
+    transform: rotate(360deg);
+}
+
+p:nth-child(3):hover{
+    transform: scale(0.1);
+}
+
+p:nth-child(4):hover{
+    transform: translateY(20px) scaleX(1.1) scaleY(0.8);
+}
+
+p:nth-child(5):hover{
+    color: #f04c25;
+    transform: scale(2.25);
+    border: 0;
+    background: transparent;
+}

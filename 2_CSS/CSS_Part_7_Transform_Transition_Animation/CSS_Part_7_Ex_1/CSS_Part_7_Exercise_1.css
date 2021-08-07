@@ -18,3 +18,75 @@ body {
 h1 {
     margin: 30px;
 }
+
+.green{
+    background: lightgreen;
+}
+
+.green i{
+    color: darkgreen;
+}
+
+.yellow{
+    background: yellow;
+}
+
+.yellow i {
+    color: goldenrod;
+}
+
+.pink{
+    background: hotpink;
+}
+
+.pink i{
+    color: purple;
+}
+
+h2, p{
+    padding: 20px;
+}
+
+h2{
+    background: rgba(0,0,0,10%);
+}
+
+ul{
+    list-style: none;
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul li{
+    width: 350px;
+    height: 350px;
+    margin: 20px;
+    box-shadow: 3px 3px 5px #666;
+    position: relative;
+}
+
+i{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.effect1{
+    transform: rotate(-5deg);
+}
+
+.effect2{
+    transform: rotate(-3deg);
+    transform: skewX(-3deg);
+}
+
+.effect3{
+    transform: scale(0.95);
+    transform: skewY(-5deg);
+}
+
+li:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}

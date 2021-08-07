@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 html {
@@ -17,9 +17,75 @@ body {
 h1,
 p {
     margin: 15px;
-
 }
 
 footer {
     display: none;
+}
+
+.wheel {
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    from{
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.all{
+    position: relative;
+}
+
+
+.wheel1{
+    position: absolute;
+    left: 40px;
+    bottom: -15px;
+}
+
+.wheel2{
+    position: absolute;
+    left: 175px;
+    bottom: -15px;
+}
+
+/* wheel1, wheel2 positions don't match wheels to the car correctly so I changed values */
+
+@media screen and (min-width:600px) {
+    footer{
+        display: block;
+        height: 300px;
+        background-image: url(./background.jpg);
+        background-repeat: repeat-x;
+        overflow: hidden;
+    }
+    .car3{
+        animation: drive2 4s linear infinite;
+    }
+
+    .car2{
+        animation: drive1 2s linear infinite;
+    }
+    
+    @keyframes drive2 {
+        from{
+            transform: translateX(0) translateY(20px);
+        }
+        to{
+            transform: translateX(140%) translateY(20px);
+        }
+    }
+
+    @keyframes drive1 {
+        from{
+            transform: translateX(0) translateY(100px);
+        }
+        to{
+            transform: translateX(140%) translateY(100px);
+        }
+    }
 }

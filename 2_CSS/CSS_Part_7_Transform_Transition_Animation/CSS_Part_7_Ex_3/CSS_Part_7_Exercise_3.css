@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +14,7 @@ body {
     font-size: 1rem;
     line-height: 1.5;
     background-color: lightgrey;
+    font-family: 'Raleway',sans-serif;
 }
 
 h1,
@@ -25,4 +28,123 @@ div {
     margin: 20px auto;
     padding: 20px;
     background-color: #fff;
+}
+
+figure{
+    border: 3px solid #000;
+    position: relative;
+    width: fit-content;
+    line-height: 0;
+}
+
+.phone-overlay{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    height: 50%;
+    width: 80%;
+    border-radius: 25px;
+    background: rgba(0,0,0,0.1);
+    padding-top: 15%;
+    font-size: 1.25rem;
+    text-align: center;
+    
+}
+
+.phone-overlay:hover{
+    transform: scale(1.2);
+    color: darkred;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.love-overlay{
+    font-size: 2rem;
+    line-height: 1.5;
+    padding-left: 10px;
+    background:rgba(255,255,255,30%);
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transform: rotateX(90deg);
+    transform-origin: top center;
+}
+
+.love:hover .love-overlay{
+    transform:rotateX(0);
+    transition: 0.5s;
+}
+
+.fa-heart{
+    padding: 0 10px;
+    animation: beating 1s infinite;
+}
+
+@keyframes beating {
+    from{
+        transform: scale(1);
+        color: #f00;
+    }
+    to{
+        transform: scale(2);
+        color: darkred;
+    }
+}
+
+.fa-phone-alt{
+    animation: rotate 12s infinite;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(30deg);
+    }
+    9%{
+        transform: rotate(60deg);
+    }
+    18%{
+        transform: rotate(90deg);
+    }
+    27%{
+        transform: rotate(120deg);
+    }
+    36%{
+        transform: rotate(150deg);
+    }
+    45%{
+        transform: rotate(180deg);
+    }
+    54%{
+        transform: rotate(210deg);
+    }
+    63%{
+        transform: rotate(240deg);
+    }
+    72%{
+        transform: rotate(270deg);
+    }
+    81%{
+        transform: rotate(300deg);
+    }
+    90%{
+        transform: rotate(330deg);
+    }
+    99%{
+        transform: rotate(360deg);
+    }
+}
+
+.fa-euro-sign{
+    animation: blink-it 0.5s infinite;
+}
+
+@keyframes blink-it {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
 }
