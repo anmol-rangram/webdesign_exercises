@@ -1,4 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 body {
-    font-family: sans-serif;
-    background-color: yellow;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    background-color: lightblue;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+img{
+    width: 340px;
+    height: 500px;
+}
+
+article li {
+    list-style-type: circle;
+}
+
+li a {
+    text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+    width: 700px;
+}
+
+
+th {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    background-color: darkgrey;
+    border: 1px solid grey;
+}
+
+tr{
+    background-color: lightgrey;
+    border: 1px solid grey;
+}
+
+td {
+    font-size:20px;
+    line-height: 100%;
+    text-align: center;
+}
+
+li a {
+    background: #fff;
+    color: darkblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li a:hover {
+    background: darkblue;
+    color: #fff;
 }

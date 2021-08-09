@@ -1,4 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&display=swap');
+
 body {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    background-color: palevioletred;
+    font-family: 'Butterfly Kids', sans-serif;
+    font-size: 30px;
+    background-color: darkblue;
+    color: #fff;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: yellow;
+    background-color: red;
+}
+
+h2{
+    background-color: red;
+}
+
+img{
+    width: 340px;
+    height: 500px;
+}
+
+article li {
+    list-style-type: circle;
+}
+
+li a {
+    text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+    width: 700px;
+}
+
+
+th {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    background-color: greenyellow;
+    border: 1px solid black;
+}
+
+tr{
+    background-color: green;
+    border: 1px solid black;
+}
+
+td {
+    font-size:20px;
+    line-height: 100%;
+    text-align: center;
+}
+
+li a {
+    background: cyan;
+    color: purple;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li a:hover {
+    background: purple;
+    color: cyan;
 }

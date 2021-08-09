@@ -1,4 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
 body {
-    font-family: Verdana, Geneva, sans-serif;
-    background-color: coral;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    background-color: #fff;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: blue;
+    background-color: yellow;
+}
+
+img{
+    width: 340px;
+    height: 500px;
+}
+
+article li {
+    list-style-type: circle;
+}
+
+li a {
+    text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+    width: 700px;
+}
+
+
+th {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    background-color: white;
+    border: 3px solid yellow;
+    color: blue;
+}
+
+tr{
+    background-color: white;
+    border: 3px solid yellow;
+}
+
+td {
+    font-size:20px;
+    line-height: 100%;
+    text-align: center;
+}
+
+li a {
+    background: yellow;
+    color: darkblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li a:hover {
+    background: darkblue;
+    color: yellow;
 }

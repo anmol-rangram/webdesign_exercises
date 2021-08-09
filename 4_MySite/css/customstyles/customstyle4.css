@@ -1,4 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 body {
-    font-family: "comic sans ms", fantasy;
-    background-color: plum;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 30px;
+    background-color: greenyellow;
+}
+
+h1 {
+    text-transform: uppercase;
+    background-color: burlywood;
+}
+
+h2{
+    background-color: burlywood;
+}
+
+img{
+    width: 340px;
+    height: 500px;
+}
+
+article li {
+    list-style-type: circle;
+}
+
+li a {
+    text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+    width: 700px;
+}
+
+
+th {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    background-color: mediumseagreen;
+    border: 1px solid grey;
+}
+
+tr{
+    background-color: forestgreen;
+    border: 1px solid grey;
+}
+
+td {
+    font-size:20px;
+    line-height: 100%;
+    text-align: center;
+}
+
+li a {
+    background: darkgreen;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+li a:hover {
+    background: #fff;
+    color: darkgreen;
 }
