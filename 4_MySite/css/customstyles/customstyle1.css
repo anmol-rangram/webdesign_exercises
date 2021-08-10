@@ -11,8 +11,23 @@ h1 {
 }
 
 img{
-    width: 340px;
+    max-width: 100%;
+    display: none;
+}
+
+header img{
+    width: 340px; 
     height: 500px;
+    filter: grayscale(0.8)
+}
+
+header img:hover{
+    animation: shrink 3s;
+}
+
+@keyframes shrink{
+    from { width: 40%; }
+    to {  width: 27%; }
 }
 
 article li {
@@ -49,12 +64,36 @@ td {
 
 li a {
     background: #fff;
-    color: darkblue;
+    color: darkred;
     text-decoration: none;
     font-weight: bold;
 }
 
 li a:hover {
-    background: darkblue;
+    background: darkred;
     color: #fff;
+}
+
+@media screen and (min-width: 600px){
+    img{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px){
+    body{
+        font-size: small;
+    }
+}
+
+@media screen and (min-width: 900px){
+    li a {
+        background: #fff;
+        color: darkblue;
+    }
+    
+    li a:hover {
+        background: darkblue;
+        color: #fff;
+    }
 }

@@ -16,6 +16,10 @@ h2{
 }
 
 img{
+    max-width: 100%;
+}
+
+header img{
     width: 340px;
     height: 500px;
 }
