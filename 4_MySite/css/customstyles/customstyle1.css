@@ -10,6 +10,19 @@ h1 {
     text-transform: uppercase;
 }
 
+nav ul {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to bottom right, #5A98BF, white);
+}
+
+.navigation li{
+    list-style: none;
+}
+
 img{
     max-width: 100%;
     display: none;

@@ -4,6 +4,7 @@ body {
     font-family: 'Dancing Script', sans-serif;
     font-size: 30px;
     background-color: greenyellow;
+    background-image: url('../../images/pexels-annam-w-1738675.jpg');
 }
 
 h1 {
@@ -17,11 +18,27 @@ h2{
 
 img{
     max-width: 100%;
+    
 }
 
 header img{
     width: 340px;
     height: 500px;
+    animation: shrink 3s;
+}
+
+@keyframes shrink{
+    from { width: 40%; }
+    to {  width: 28%; }
+}
+
+header img:hover{
+    animation: grow 3s;
+}
+
+@keyframes grow{
+    from { width: 28%; }
+    to {  width: 40%; }
 }
 
 article li {

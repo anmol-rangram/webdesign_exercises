@@ -12,6 +12,19 @@ h1 {
     background-color: yellow;
 }
 
+nav ul {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to bottom, yellow, white);
+}
+
+.navigation li{
+    list-style: none;
+}
+
 img{
     max-width: 100%;
 }
@@ -20,6 +33,7 @@ header img{
     width: 340px;
     height: 500px;
     float: right;
+    margin-right: 60px;
 }
 
 article li {
