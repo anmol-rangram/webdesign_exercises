@@ -8,61 +8,78 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Anmol Rangram</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap-grid.min.css">
 </head>
 
 <body>
-    <header>
-        <h1>Anmol Rangram</h1>
-        <nav>
-            <ul>
-                <li><a href="football.html">Football</a></li>
-                <li><a href="colorscheme.html">Colorscheme</a></li>
-            </ul>
-        </nav>
-        <svg width="700" height="20">
-            <ellipse cx="20" cy="10" rx="20" ry="5" fill="#009cab"/>
-            <circle cx="40" cy="10" r="10" fill="#009cab" />
-            <ellipse cx="60" cy="10" rx="20" ry="5" fill="#009cab"/>
-        </svg>        
-        <h2>Student at Thomas More University</h2>
-    </header>
+    <div class="row justify-content-lg-center justify-content-md-center justify-content-sm-center ml-4">
+        <header>
+            <h1 class="offset-3">Anmol Rangram</h1>
+            <nav class=" mt-4 mb-4">
+                <ul>
+                    <li><a href="football.html">Football</a></li>
+                    <li><a href="colorscheme.html">Colorscheme</a></li>
+                </ul>
+            </nav>
+            <div class="offset-4">
+                <svg width="700" height="20">
+                    <ellipse cx="20" cy="10" rx="20" ry="5" fill="#009cab"/>
+                    <circle cx="40" cy="10" r="10" fill="#009cab" />
+                    <ellipse cx="60" cy="10" rx="20" ry="5" fill="#009cab"/>
+                </svg>  
+            </div>      
+            <h2>Student at Thomas More University</h2>
+        </header>
+    
 
-    <article>
-        <h2>About me</h2>
-        <p>I am a student at Thomas More University, currently doing a Bachelor in Applied Computer Science.</p>
-        <h3>History</h3>
-        <p>Before starting this course I did 6 years of primary school and 7 years of high school in Luxembourg.
-        </p>
-        <h3>Hobbies</h3>
-        <p>My hobbies are playing <a href="football.html">football</a>, going to the gym, listening to music and hanging out with friends.</p>
-        <figure>
-            <img src=images/pexels-anmol-8944748.jpg alt="Life is simple" width="640" height="480">
-            <figcaption>Football ground in my hometown</figcaption>
-        </figure>
-        <h3>Language skills</h3>
-        <table>
-            <tr>
-                <th>English</th>
-                <th>German</th>
-                <th>French</th>
-                <th>Luxembourgish</th>
-                <th>Hindi</th>
-            </tr>
-            <tr>
-                <td>Fluent</td>
-                <td>Fluent</td>
-                <td>Fluent</td>
-                <td>Fluent</td>
-                <td>Mother tongue</td>
-            </tr>
-        </table>
-    </article>
+        <article>
+            <h2>About me</h2>
+            <p>I am a student at Thomas More University, currently doing a Bachelor in Applied Computer Science.</p>
+            <h3>History</h3>
+            <p>Before starting this course I did 6 years of primary school and 7 years of high school in Luxembourg.
+            </p>
+            <h3>Hobbies</h3>
+            <p>My hobbies are playing <a href="football.html">football</a>, going to the gym, listening to music and hanging out with friends.</p>
+            <figure>
+                <div class="d-none d-md-block col-md-12 col-lg-6 p-3">
+                    <img src=images/pexels-anmol-8944748.jpg alt="football ground" width="640" height="480">
+                </div>
+                <figcaption>Football ground in my hometown</figcaption>
+               
+            </figure>
+            <h3>Language skills</h3>
+            <table>
+                <tr>
+                    <th>English</th>
+                    <th>German</th>
+                    <th>French</th>
+                    <th>Luxembourgish</th>
+                    <th>Hindi</th>
+                </tr>
+                <tr>
+                    <td>Fluent</td>
+                    <td>Fluent</td>
+                    <td>Fluent</td>
+                    <td>Fluent</td>
+                    <td>Mother tongue</td>
+                </tr>
+            </table>
+        </article>
+    
+    
+    </div>
+    
+    <p class="ml-4"><a href="#top">Top</a></p>
+    
 
-    <p><a href="#top">Top</a></p>
-
-    <footer>
-        <p>Send me an <a href="mailto:anmol.rangram@student.thomasmore.be">email</a> &amp; visit my <a href="https://www.pexels.com/@anmol-86000854">pexels profile!</a></p>
-    </footer>
+    <div class="ml-4">
+        <footer>
+            <p>Send me an <a href="mailto:anmol.rangram@student.thomasmore.be">email</a> &amp; visit my <a href="https://www.pexels.com/@anmol-86000854">pexels profile!</a></p>
+        </footer>
+    </div>
+    
 </body>
 
 </html>

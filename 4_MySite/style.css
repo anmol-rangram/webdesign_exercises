@@ -1,0 +1,70 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+article {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    background-color: lightblue;
+}
+
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+h1 {
+    text-transform: uppercase;
+    transform: translateX(240px) rotate(-10deg);
+    width:165px;
+}
+
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    background: linear-gradient(to bottom right, #be9611, white);
+}
+
+li a:hover {
+    background: rgb(53, 0, 139);
+    color: #fff;
+}
+
+
+figcaption{
+    background-color: #e222d875;
+    color: rgba(50, 16, 204, 0.836);
+    font-weight: bold;
+    font-size: 16px;
+    padding: 15px;
+    width: 150px;
+    transform: translateX(240px) translateY(-10px);
+}
+
+img:hover{
+    border: 4px solid #fff;
+    border-radius: 100px;
+    transition: 1s;
+}
+
+h1:hover{
+    background-color: #fff;
+    transition: 1s;
+}
+
+article{
+    animation: flip 3s ease;
+}
+
+@keyframes flip{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,33 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+article {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    background-color: lightblue;
+}
+
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    background: linear-gradient(to bottom right, #be9611, white);
+}
+
+li a:hover {
+    background: rgb(53, 0, 139);
+    color: #fff;
+}
